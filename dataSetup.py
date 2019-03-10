@@ -13,7 +13,7 @@ def listdir_fullpath(d):
     return [os.path.join(d, f) for f in os.listdir(d)]
 
 for dirname, dirnames, filenames in os.walk('C:/Users/tejas/Desktop/ART PROJECTS/animeface-character-dataset/animeface-character-dataset/thumb'):
-    # print path to all subdirectories first.
+    # print path to all subdirectories firste.
     for subdirname in dirnames:
         print(os.path.join(dirname, subdirname))
 
